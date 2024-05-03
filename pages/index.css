@@ -155,7 +155,11 @@ header__content {
   padding-bottom: 215px;
 }
 
-.recipes__videos-item {
+.recipes__videos-item-1 {
+  column-gap: 24px;
+}
+
+.recipes__videos-item-2 {
   column-gap: 24px;
 }
 
