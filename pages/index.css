@@ -107,6 +107,7 @@ header__content {
 
 .header__schedules {
   list-style-type: none;
+  color: #6f6f6f;
 }
 .header__adress {
   position: absolute;
@@ -156,7 +157,7 @@ header__content {
 }
 
 .recipes__videos-item {
-  align-content: center;
+  column-gap: 24px;
 }
 
 .recipes__iframe {
