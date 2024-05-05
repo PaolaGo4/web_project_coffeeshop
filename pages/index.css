@@ -193,9 +193,7 @@ header__content {
 
 .reservation__title {
   padding-top: 100px;
-  margin-bottom: 80px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px auto 80px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -235,6 +233,8 @@ header__content {
   border-radius: 4px;
   box-sizing: border-box;
   width: 100%;
+}
+::placeholder {
   color: #838383;
 }
 
@@ -254,7 +254,7 @@ header__content {
 }
 
 .form__button:hover {
-  opacity: 0.7;
+  opacity: 70%;
 }
 
 .form__label-checkbox {
